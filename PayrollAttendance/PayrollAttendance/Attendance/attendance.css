@@ -1,0 +1,83 @@
+﻿
+#form1 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-color: #E6EBF6;
+}
+
+.container {
+}
+
+.buttons {
+    height: 5.5rem;
+}
+
+.txt {
+    background-color: transparent;
+    font-size: 2.5rem;
+    color: #000;
+}
+
+.form-log {
+    width: 50%;
+}
+
+.h1 {
+    font-weight: bold;
+    color: #000;
+    font-size: 5rem;
+}
+
+.form-control {
+    border: 1px solid #000;
+}
+
+
+
+.swal-button--cancel {
+    background-color: #ff0000 !important;
+    color: #fff;
+}
+
+@media (max-width: 1200px) {
+    .head {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .h1 {
+        font-size: 2.5rem;
+    }
+
+    .txt {
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .h1 {
+        font-size: 2rem;
+    }
+
+    .txt {
+        font-size: 1.3rem;
+    }
+
+    .head {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .buttons {
+        display: table-column;
+    }
+}
